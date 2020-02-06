@@ -1,0 +1,42 @@
+{
+  "name": "rmdirs",
+  "version": "1.0.0",
+  "private": false,
+  "main": "index.js",
+  "keywords": [
+    "rmdirs",
+    "rm",
+    "rmrf",
+    "delete"
+  ],
+  "description": "A tool for quickly deleting folders, based on nodejs.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rmdirs": "./index.js"
+  },
+  "license": "MIT",
+  "author": "aooiu",
+  "homepage": "https://github.com/aooiuu/rmdirs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aooiuu/rmdirs"
+  },
+  "bugs": {
+    "url": "https://github.com/aooiuu/rmdirs"
+  },
+  "dependencies": {
+    "commander": "^4.1.1",
+    "inquirer": "^7.0.4",
+    "rimraf": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
