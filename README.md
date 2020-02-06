@@ -2,6 +2,17 @@
 
 > A tool for quickly deleting folders, based on nodejs.
 
+![rmdirs](https://img.shields.io/npm/v/rmdirs.svg?style=flat-square)
+![rmdirs](https://img.shields.io/npm/dt/rmdirs.svg)
+
+## install
+
+```
+npm install -g rmdirs
+```
+
+## use
+
 ```bash
 $ rmdirs --help
 
